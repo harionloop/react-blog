@@ -1,12 +1,11 @@
 import Topbar from "./Components/Topbar/Topbar";
-import SinglePage from "./Pages/Single/SinglePage";
-import Write from "./Write/Write";
+import Settings from "./Pages/Settings/Settings";
 
 function App() {
   return (
     <>
       <Topbar />
-      <Write />
+      <Settings />
     </>
   );
 }
