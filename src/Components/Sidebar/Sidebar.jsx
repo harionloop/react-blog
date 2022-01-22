@@ -22,7 +22,9 @@ export default function Sidebar() {
           <li className="sidebar-list-item">Life</li>
           <li className="sidebar-list-item">Music</li>
           <li className="sidebar-list-item">Tech</li>
-          <li className="sidebar-list-item">Psychology</li>
+          <li className="sidebar-list-item">Sports</li>
+          <li className="sidebar-list-item">Music</li>
+          <li className="sidebar-list-item">Science</li>
         </ul>
       </div>
       <div className="sidebar-item">

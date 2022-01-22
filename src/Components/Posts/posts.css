@@ -1,4 +1,6 @@
 .posts {
+    display: flex;
     flex: 9;
-    background-color: yellow;
+    flex-wrap: wrap;
+    margin: 20px;
 }
