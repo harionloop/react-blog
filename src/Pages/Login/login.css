@@ -1,0 +1,59 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://th.bing.com/th/id/R.f0e8befff9341f7d40a029ee21d9920d?rik=eeXGuFbnd%2bueLA&riu=http%3a%2f%2fwww.arlingtondiocese.org%2fuploadedImages%2fCDA%2fPage_Elements%2fResource_Cards%2fChild_Protection%2fBackground_Check%2fpaperwork.jpg&ehk=dwD2dgf46QfKqRLNy9FlPKlC0ZOhAbUpONfB3ytKKlg%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1);
+    background-size: cover;
+}
+
+.login-title {
+    font-size: 50px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.login-form>label {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.login-form>input {
+    background-color: lightgray;
+    padding: 12px;
+    border: none;
+    width: 340px;
+    border-radius: 6px;
+}
+
+.login-butt {
+    margin-top: 20px;
+    background-color: lightcoral;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-register-butt {
+    position: absolute;
+    top: 62px;
+    right: 20px;
+    background-color: teal;
+    color: white;
+    padding: 8px;
+    width: 80px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
