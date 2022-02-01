@@ -44,6 +44,11 @@
     cursor: pointer;
 }
 
+.login-butt:disabled {
+    background-color: rgb(250, 161, 161);
+    cursor: not-allowed;
+}
+
 .login-register-butt {
     position: absolute;
     top: 62px;

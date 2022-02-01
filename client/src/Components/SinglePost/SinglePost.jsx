@@ -5,6 +5,8 @@ import { useLocation, Link } from "react-router-dom";
 import "./singlePost.css";
 
 export default function SinglePost() {
+  const PF = "http://localhost:5000/images/";
+
   const [post, setPost] = useState({});
 
   const location = useLocation();
@@ -22,7 +24,7 @@ export default function SinglePost() {
     <div className="singlePost">
       <div className="singlePostWrapper">
         {post.photo && (
-          <img className="singlePostImg" src={post.photo} alt="blog img" />
+          <img className="singlePostImg" src={PF + post.photo} alt="blog img" />
         )}
         <h1 className="singlePostTitle">
           {post.title}

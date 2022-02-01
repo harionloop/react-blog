@@ -53,7 +53,7 @@ export default function Register() {
         />
         <button className="register-butt">Register</button>
       </form>
-      <button className="register-login-butt">
+      <button className="register-login-butt" type="submit">
         <Link className="link" to="/login">
           Login
         </Link>

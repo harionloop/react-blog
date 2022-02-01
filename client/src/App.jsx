@@ -7,9 +7,11 @@ import Login from "./Pages/Login/Login";
 import Single from "./Pages/Single/Single";
 import Settings from "./Pages/Settings/Settings";
 import Write from "./Pages/Write/Write";
+import { useContext } from "react";
+import { Context } from "./Context/Context";
 
 function App() {
-  const user = false;
+  const { user } = useContext(Context);
   return (
     <Router>
       <Topbar />
