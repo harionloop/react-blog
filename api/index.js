@@ -10,10 +10,13 @@ const postsRoute = require("./Routes/posts")
 const categoryRoute = require("./Routes/categories")
 
 const app = express();
+app.use(express.json());
 
 dotenv.config()
-app.use(express.json());
-mongoose.connect(process.env.DB_url).then(console.log("status 200")).catch((err) => console.log(err));
+mongoose.connect(process.env.DB_url, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+}).then(console.log("status 200")).catch((err) => console.log(err));
 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
